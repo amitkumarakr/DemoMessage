@@ -1,0 +1,86 @@
+/* public/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 50px; /* Added padding at the top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px; /* Add some margin at the top for additional spacing */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px; /* Additional padding before the chats */
+}
+
+.chat {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #00bcd4;
+}
+
+.chat p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.chat p strong {
+    color: #333;
+}
+.msg {
+    background-color: rgb(2, 187, 187);
+    color: rgb(255, 255, 255); /* Set the text color */
+    width: fit-content;
+    height: 2rem;
+    border-radius: 10px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    ;
+}
+.btn {
+    display: inline-block;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.editing{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
